@@ -2,9 +2,9 @@ package school.mjc.stage0.loops.task5;
 
 public class Rectangle {
     public void printRectangleFrom8s(int length, int height){
-        for (int row = 1; row <= length; row++) {
-            for (int col = 1; col <= height; col++) {
-                if (row == 1 || row == length || col == 1 || col == height) {
+        for (int row = 1; row <= height; row++) {
+            for (int col = 1; col <= length; col++) {
+                if (row == 1 || row == height || col == 1 || col == length) {
                     System.out.print("8");
                 } else {
                     System.out.print(" ");
